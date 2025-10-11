@@ -1,3 +1,4 @@
+//JS program to display the current time ,day, date
 let today = new Date(); //getting new date and time
 let day = today.getDay();//get the day and week where 0 is sunday and 6 is saturday0-6
 let daylist = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
@@ -30,4 +31,5 @@ if (hour === 0 && prepand === 'AM') {
         prepand = 'AM';
     }
 }
+
 console.log("Current time : " + hour + prepand + " : " + minutes + ' : ' + seconds);
